@@ -4,3 +4,6 @@
 [submodule "deps/zlib"]
 	path = deps/zlib
 	url = https://github.com/madler/zlib
+[submodule "deps/cppcodec"]
+	path = deps/cppcodec
+	url = https://github.com/tplgy/cppcodec.git
