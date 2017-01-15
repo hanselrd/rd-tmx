@@ -13,29 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="pugixml">
-      <UniqueIdentifier>{8bddcee3-2480-4b7d-b0fb-97c6968cfce0}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\deps\pugixml\src\pugixml.hpp">
-      <Filter>pugixml</Filter>
-    </ClInclude>
-    <ClInclude Include="..\deps\pugixml\src\pugiconfig.hpp">
-      <Filter>pugixml</Filter>
-    </ClInclude>
-    <ClInclude Include="include\test_lib.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\deps\pugixml\src\pugixml.cpp">
-      <Filter>pugixml</Filter>
-    </ClCompile>
-    <ClCompile Include="src\test_lib.cpp">
+    <ClCompile Include="src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
