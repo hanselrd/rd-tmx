@@ -30,6 +30,9 @@
     <ClInclude Include="include\test_lib.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="include\tmxutil.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\deps\pugixml\src\pugixml.cpp">
